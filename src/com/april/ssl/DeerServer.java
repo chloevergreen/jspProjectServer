@@ -14,7 +14,7 @@ public class DeerServer {
 			System.setProperty("javax.net.ssl.keyStore", "D:\\");
 			
 			//password는 keyStore를 만들 떼의 저장소 비밀번호
-			System.setProperty("javax.net/ssl.keyStorePassword", "dkssud123");
+			System.setProperty("javax.net.ssl.keyStorePassword", "dkssud123");
 			
 			//디버깅을 위한 설정
 			System.setProperty("javax.net.debug", "ssl");
